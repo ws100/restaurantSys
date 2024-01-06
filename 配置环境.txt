@@ -1,0 +1,15 @@
+配置前端环境
+安装Flutter sdk(Flutter 3.4.0-17.2.pre)
+安装、配置安卓相关相关的开发环境
+在ConstNumber类中更改baseUrl为后端的IP地址/域名+端口号
+使用flutter build apk命令打包安装包
+
+cos对象存储(图片上传功能)
+项目中使用了腾讯云对象存储实现图片上传
+可在腾讯云申请对象存储服务后在前端cos.dart中更改secretId、secretKey等信息
+
+配置后端环境
+安装python和mysql
+安装mysqlclient和django
+在django工程文件的settings.py修改数据库的配置
+使用python manager.py runserver --host 0.0.0.0 --port 9999
